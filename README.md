@@ -49,31 +49,38 @@ _
 * Al igual que los metodos de User se debe de enviar un body en el caso de POST, PUT y PATCH
 
 * Crear patineta
-  * Metodo: POST
-  * Ejemplo: http://45.77.166.213:3800/api/skateBoard
+* Metodo: POST
+* Ejemplo: http://45.77.166.213:3800/api/skateBoard
 
 /skateBoard
 
+_
 * Get All
 * Obtener todas las patinetas creadas
+
 /skateBoard
 
+_
  * Get
+ 
 /skateBoard/:id
 
-
+_
  * Put
+ 
 /skateBoard/:id
 
-
+_
  * Patch
+ 
 /skateBoard/:id
 
-
+_
  * Delete
+ 
 /skateBoard/:id
 
-
+_
  * Metodos de renta
  * Ejemplo: http://45.77.166.213:3800/api/skateBoard/5d7459624091740a306caa62/rent
  * Body: {"id_user": "5d74542f4091740a306caa61"}
