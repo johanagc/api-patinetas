@@ -10,15 +10,10 @@ Rutas
  * Metodo: POST
  * Ejemplo: http://45.77.166.213:3800/api/user
  * Cuerpo (Body): 
- * {
- *  data:  {
- *    "name": "Johana Gómez", "lastname":"Colorado"
- *  }
- * }
+ * { data: {"name": "Johana Gómez", "lastname":"Colorado" } }
  * Nota: En POSTMAN, pestaña [Body] agregar key [data] ---> value [{"name": "Johana Gómez", "lastname":"Colorado"}]
  
 /user
-
 
 
  * Obtener un usuario
