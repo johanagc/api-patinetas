@@ -9,7 +9,7 @@ var port = 3800;
 // Le indicamos a Mongoose que haremos la conexión con Promesas
 mongoose.Promise = global.Promise;
 // Usamos el método connect para conectarnos a nuestra base de datos
-mongoose.connect('mongodb://127.0.0.1:27017/test1',  { useNewUrlParser: true })
+mongoose.connect('mongodb://45.77.166.213:27017/skateboard',  { useNewUrlParser: true })
     .then((result) => {
         // Cuando se realiza la conexión, lanzamos este mensaje por consola
         console.log("La conexión a la base de datos bicicletasElectricas se ha realizado correctamente")
