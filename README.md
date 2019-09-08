@@ -9,9 +9,8 @@ Rutas
  * Creacion de un usuario
  * Metodo: POST
  * Ejemplo: http://45.77.166.213:3800/api/user
- * Cuerpo (Body): 
- * { data: {"name": "Johana Gómez", "lastname":"Colorado" } }
- * Nota: En POSTMAN, pestaña [Body] agregar key [data] ---> value [{"name": "Johana Gómez", "lastname":"Colorado"}]
+ * Cuerpo (Body): { data: {"name": "Johana Gómez", "lastname":"Colorado" } }
+ * Nota: En POSTMAN, pestaña [Body] agregar un key data --en--> value {"name": "Johana Gómez", "lastname":"Colorado"}
  
 /user
 
@@ -74,7 +73,7 @@ Rutas
 
  * Metodos de renta
  * Ejemplo: http://45.77.166.213:3800/api/skateBoard/5d7459624091740a306caa62/rent
- * Body:  {"id_user": "5d74542f4091740a306caa61"}
+ * Body: {"id_user": "5d74542f4091740a306caa61"}
  * Este endpoint asigna una patineta a un usuario (id_user enviado en el body)
 
 /skateBoard/:id/rent
